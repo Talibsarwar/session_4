@@ -40,4 +40,4 @@ jobs:
       run:  yarn global add surge
       
     - name: deploying surge app
-      run:  yarn surge ./build http://bootcamp-sessionb.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run:  yarn surge ./build http://bootcamp-session_4.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
